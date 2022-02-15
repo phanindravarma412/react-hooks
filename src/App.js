@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 
 import "./App.css";
-import UseMemoExample from "./components/UseMemo/UseMemoExample";
+import UseMemoIncrement from "./components/UseMemo/UseMemoIncrement";
 
 function App() {
   return (
     <Fragment>
-      <UseMemoExample />
+      <UseMemoIncrement />
     </Fragment>
   );
 }

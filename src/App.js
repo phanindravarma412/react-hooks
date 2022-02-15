@@ -1,15 +1,14 @@
 import React, { Fragment, createContext } from "react";
 
 import "./App.css";
-import ComponentA from "./components/UseContext/ComponentA";
-
+import UseReducerExample from "./components/UseReducer/UseReducerExample";
 export const UserContext = createContext();
 
 function App() {
   return (
     <Fragment>
       <UserContext.Provider value={"Hello"}>
-        <ComponentA />
+        <UseReducerExample />
       </UserContext.Provider>
     </Fragment>
   );

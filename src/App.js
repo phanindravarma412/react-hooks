@@ -1,13 +1,16 @@
-import React, { Fragment } from "react";
+import React, { Fragment, createContext } from "react";
 
 import "./App.css";
-import UseRefPreviousInput from "./components/UseRef/UseRefPreviousInput";
+import ComponentA from "./components/UseContext/ComponentA";
 
+export const UserContext = createContext();
 
 function App() {
   return (
     <Fragment>
-      <UseRefPreviousInput />
+      <UserContext.Provider value={"Hello"}>
+        <ComponentA />
+      </UserContext.Provider>
     </Fragment>
   );
 }

@@ -1,13 +1,12 @@
 import React, { Fragment } from "react";
 
 import "./App.css";
-import UseEffectExampleBasedOnWindow from "./components/UseEffect/UseEffectExampleBasedOnWindow";
-
+import UseMemoExample from "./components/UseMemo/UseMemoExample";
 
 function App() {
   return (
     <Fragment>
-      <UseEffectExampleBasedOnWindow />
+      <UseMemoExample />
     </Fragment>
   );
 }

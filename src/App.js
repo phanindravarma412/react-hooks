@@ -1,14 +1,15 @@
 import React, { Fragment, createContext } from "react";
 
 import "./App.css";
-import UseReducerExample from "./components/UseReducer/UseReducerExample";
+import UseCallbackExample from "./components/UseCallback/UseCallbackExample";
+
 export const UserContext = createContext();
 
 function App() {
   return (
     <Fragment>
       <UserContext.Provider value={"Hello"}>
-        <UseReducerExample />
+        <UseCallbackExample />
       </UserContext.Provider>
     </Fragment>
   );

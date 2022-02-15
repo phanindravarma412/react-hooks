@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
 
 import "./App.css";
-import ObjectBasedState from "./components/UseState/ObjectBasedState";
+import UseEffectExampleBasedOnWindow from "./components/UseEffect/UseEffectExampleBasedOnWindow";
+
 
 function App() {
   return (
     <Fragment>
-      <ObjectBasedState />
+      <UseEffectExampleBasedOnWindow />
     </Fragment>
   );
 }

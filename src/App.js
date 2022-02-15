@@ -1,12 +1,13 @@
 import React, { Fragment } from "react";
 
 import "./App.css";
-import UseMemoIncrement from "./components/UseMemo/UseMemoIncrement";
+import UseRefPreviousInput from "./components/UseRef/UseRefPreviousInput";
+
 
 function App() {
   return (
     <Fragment>
-      <UseMemoIncrement />
+      <UseRefPreviousInput />
     </Fragment>
   );
 }
